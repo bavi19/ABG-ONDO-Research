@@ -1,0 +1,15 @@
+.venv/
+.runtime/
+_review/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.env.*
+*.key
+*.pem
+*.zip
+*.docx
+*.pdf
+.DS_Store
+Thumbs.db

@@ -1,0 +1,69 @@
+{
+  "source_archive": "ONDO_reconciliation_2026-11-09.zip",
+  "source_archive_sha256": "7483dffe03a907e033dd97e3f5318164ce63f06bab72e4f1710e3806df94944d",
+  "source_manifest_checks_passed": 23,
+  "files": {
+    "data/safe_outflows_tx.csv": {
+      "source_member": "ondo_reconcile_2026-11-09/results/safe_outflows_tx.csv",
+      "source_sha256": "af11b1bec6b1aa04241ed68420bfdd9a23cbe0dc99123e967cebcf654544ed7b",
+      "sha256": "6ad59cab685f0dfc85b8330380c42ab3d60b3cad14e2880f891e05c74b9866d3",
+      "transformation": "Column projection only; retain original row order and field strings.",
+      "columns": [
+        "safe",
+        "timestamp_utc",
+        "month",
+        "to",
+        "amount_ondo",
+        "tx_hash",
+        "etherscan_url"
+      ],
+      "rows": 203
+    },
+    "data/safeA_large_transfers.csv": {
+      "source_member": "ondo_reconcile_2026-11-09/results/safeA_large_transfers_2025_2026.csv",
+      "source_sha256": "8119a0a81f746d031209d0a74b69719c3fba7add13968ec41c7884735bbdd8c1",
+      "sha256": "a6c169bc5cfacc99c80d6efcde9ae5c78156bffd0b506d77f073d47616d6dab5",
+      "transformation": "Column projection only; retain original row order and field strings.",
+      "columns": [
+        "timestamp_utc",
+        "from",
+        "to",
+        "amount_ondo",
+        "tx_hash"
+      ],
+      "rows": 21
+    },
+    "data/coinbase_ONDO_2025-01-18.json": {
+      "source_member": "ONDOshort.zip/ONDOshort/ONDO_research_audit_2026-11-07.zip/raw/coinbase_ONDO_2025-01-18.json",
+      "source_sha256": "75130c03fb38616ba80da28414828ff4b9b9e1e323c309bc8e844d40ab2931f9",
+      "sha256": "75130c03fb38616ba80da28414828ff4b9b9e1e323c309bc8e844d40ab2931f9",
+      "transformation": "None; public numeric daily candles only.",
+      "source_url": "https://api.exchange.coinbase.com/products/ONDO-USD/candles",
+      "granularity_seconds": 86400
+    },
+    "data/coinbase_BTC_2025-01-18.json": {
+      "source_member": "ONDOshort.zip/ONDOshort/ONDO_research_audit_2026-11-07.zip/raw/coinbase_BTC_2025-01-18.json",
+      "source_sha256": "5615d995d1cd4972423a4ad549693cdbc2fb81396d12bd50c49d4edbafb910a9",
+      "sha256": "5615d995d1cd4972423a4ad549693cdbc2fb81396d12bd50c49d4edbafb910a9",
+      "transformation": "None; public numeric daily candles only.",
+      "source_url": "https://api.exchange.coinbase.com/products/BTC-USD/candles",
+      "granularity_seconds": 86400
+    },
+    "data/coinbase_ONDO_2026-01-18.json": {
+      "source_member": "ONDOshort.zip/ONDOshort/ONDO_research_audit_2026-11-07.zip/raw/coinbase_ONDO_2026-01-18.json",
+      "source_sha256": "4adb5ff0548065f022a89f198fc2fa9e35f61f42577677baadc552c4f728c612",
+      "sha256": "4adb5ff0548065f022a89f198fc2fa9e35f61f42577677baadc552c4f728c612",
+      "transformation": "None; public numeric daily candles only.",
+      "source_url": "https://api.exchange.coinbase.com/products/ONDO-USD/candles",
+      "granularity_seconds": 86400
+    },
+    "data/coinbase_BTC_2026-01-18.json": {
+      "source_member": "ONDOshort.zip/ONDOshort/ONDO_research_audit_2026-11-07.zip/raw/coinbase_BTC_2026-01-18.json",
+      "source_sha256": "1d5efd6e9c176a4a4697f62df993dffff72e5756154d3731651542e1d383f474",
+      "sha256": "1d5efd6e9c176a4a4697f62df993dffff72e5756154d3731651542e1d383f474",
+      "transformation": "None; public numeric daily candles only.",
+      "source_url": "https://api.exchange.coinbase.com/products/BTC-USD/candles",
+      "granularity_seconds": 86400
+    }
+  }
+}

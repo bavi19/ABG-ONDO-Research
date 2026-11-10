@@ -1,0 +1,19 @@
+{
+  "reference_cap_usd": "1695052960",
+  "reference_circulating_ondo": "4869330647",
+  "reported_quote_usd": "0.348318",
+  "reported_fdv_usd": "3481080014",
+  "reported_snapshot_time": "2026-11-08T23:36:53-08:00",
+  "snapshot_status": "Working package-reported reference; original later CoinGecko response absent.",
+  "ecosystem_allocation_ondo": "5210869545",
+  "ecosystem_initial_release_fraction": "0.24",
+  "protocol_allocation_ondo": "3300000000",
+  "private_allocation_ondo": "1290246044",
+  "working_steps": 5,
+  "alternative_protocol_private_steps": 4,
+  "total_supply_ondo": "10000000000",
+  "release_realizations": ["0", "0.5", "1"],
+  "capitalization_changes": ["-0.25", "0", "0.25", "0.5", "1"],
+  "analysis_start_month": "2025-01",
+  "analysis_end_month": "2026-10"
+}
