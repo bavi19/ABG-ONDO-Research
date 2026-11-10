@@ -106,7 +106,7 @@ The local repository points to `https://github.com/bavi19/ABG-ONDO-Research.git`
 
 ```powershell
 git status --short
-git add README.md METHODOLOGY.md VERIFICATION.md requirements.txt requirements-lock.txt .gitignore data notebooks scripts figures
+git add README.md METHODOLOGY.md VERIFICATION.md requirements.txt requirements-lock.txt .gitignore .gitattributes data notebooks scripts figures
 git diff --cached --stat
 git diff --cached
 git commit -m "Add reproducible ONDO research analysis"

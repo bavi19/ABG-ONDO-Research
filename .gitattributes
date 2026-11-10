@@ -1,0 +1,4 @@
+* text=auto
+# Evidence checksums require identical bytes on every operating system.
+data/** -text
+*.png -text
